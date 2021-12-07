@@ -76,6 +76,7 @@ if (isset($_POST["antal"])) {
     saveToFile($selectedDybte);
     saveToFile($selectedHøjde);
     saveToFile($SelectedAntal);
-    SeVaren()
+    Bemærkning();
 }
+
 ?>

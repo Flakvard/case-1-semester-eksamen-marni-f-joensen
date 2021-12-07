@@ -10,11 +10,7 @@
 
 <body bgcolor="#ff1493">
 
-    <form method="post"> <?php // man kan også lave en (action="savenote.php" hvor den fører det til savenote)
-                            ?>
-        <input type="text" name="note">
-        <button type="submit">Gem</button>
-    </form>
+
 
     <ul>
         <!-- Her starter jeg mit loop -->
