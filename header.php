@@ -9,7 +9,7 @@
 
             <div class="main-nav-logo">
                 <div class="main-nav-logo-inner" id="mainlogo">
-                    <a href="https://farstrup.dk">
+                    <a href="http://localhost/case-1-semester-eksamen-marni-f-joensen">
                         <amp-img src="https://farstrup.dk/wp-content/uploads/logo-2-300x60.png" width="300" height="60" layout="fill" class="logo contain i-amphtml-layout-fill i-amphtml-layout-size-defined" alt="" i-amphtml-layout="fill"></amp-img>
                     </a>
                 </div>
@@ -28,14 +28,14 @@
             <div class="main-nav">
                 <div class="menu-header-menu-container">
                     <ul id="menu-header-menu" class="menu">
-                        <li id="menu-item-725" class="menu-kollektion menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item menu-item-725"><a href="/produkter" aria-current="page">Kollektion</a>
+                        <li id="menu-item-725" class="menu-kollektion menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item menu-item-725"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen" aria-current="page">Kollektion</a>
                             <ul class="sub-menu">
-                                <li id="menu-item-3830" class="menu-laenestole menu-item menu-item-type-custom menu-item-object-custom menu-item-3830"><a href="./vare-kategori/laenestole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/Lænestole.png")); ?>'> Lænestole</a></li>
-                                <li id="menu-item-3829" class="menu-funktionsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3829"><a href="./vare-kategori/funktionsstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/Funktionsstole.png")); ?>'> Funktionsstole</a></li>
-                                <li id="menu-item-3832" class="menu-spisebordsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3832"><a href="./vare-kategori/spisebordsstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/Spisebordsstole.png")); ?>'> Spisebordsstole</a></li>
-                                <li id="menu-item-3833" class="menu-stabelstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3833"><a href="./vare-kategori/stabelstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/stabelstole.png")); ?>'> Stabelstole</a></li>
-                                <li id="menu-item-3831" class="menu-sofaer menu-item menu-item-type-custom menu-item-object-custom menu-item-3831"><a href="./vare-kategori/sofaer/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/Sofaer.png")); ?>'> Sofaer</a></li>
-                                <li id="menu-item-3828" class="menu-borde menu-item menu-item-type-custom menu-item-object-custom menu-item-3828"><a href="./vare-kategori/borde/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents(".//img/Borde.png")); ?>' > Borde</a></li>
+                                <li id="menu-item-3830" class="menu-laenestole menu-item menu-item-type-custom menu-item-object-custom menu-item-3830"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/laenestole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/Lænestole.png")); ?>'> Lænestole</a></li>
+                                <li id="menu-item-3829" class="menu-funktionsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3829"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/funktionsstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/Funktionsstole.png")); ?>'> Funktionsstole</a></li>
+                                <li id="menu-item-3832" class="menu-spisebordsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3832"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/spisebordsstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/Spisebordsstole.png")); ?>'> Spisebordsstole</a></li>
+                                <li id="menu-item-3833" class="menu-stabelstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3833"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/stabelstole/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/stabelstole.png")); ?>'> Stabelstole</a></li>
+                                <li id="menu-item-3831" class="menu-sofaer menu-item menu-item-type-custom menu-item-object-custom menu-item-3831"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/sofaer/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/Sofaer.png")); ?>'> Sofaer</a></li>
+                                <li id="menu-item-3828" class="menu-borde menu-item menu-item-type-custom menu-item-object-custom menu-item-3828"><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/vare-kategori/borde/"> <img src='data:image/png;base64,<?php echo base64_encode(file_get_contents("http://localhost/case-1-semester-eksamen-marni-f-joensen/img/Borde.png")); ?>' > Borde</a></li>
                             </ul>
                         </li>
                         <li id="menu-item-721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="/forhandlere/">Forhandlere</a></li>
@@ -47,6 +47,11 @@
                                 <li id="menu-item-6854" class="menu-kataloger menu-item menu-item-type-custom menu-item-object-custom menu-item-6854"><a href="/kataloger">Kataloger</a></li>
                                 <li id="menu-item-6855" class="menu-tekniskefiler menu-item menu-item-type-custom menu-item-object-custom menu-item-6855"><a href="/tekniske-filer">Tekniske filer</a></li>
                                 <li id="menu-item-6856" class="menu-contract-kollektion menu-item menu-item-type-custom menu-item-object-custom menu-item-6856"><a href="/kollektion">Kollektion</a></li>
+                            </ul>
+                        </li>
+                        <li id="indkoebskruv" class="menu-indkoebskruv"><a href="/indkoebskruv"><img src="http://localhost/case-1-semester-eksamen-marni-f-joensen/img/indkøbskurv.png" width="30" height="30">
+                            <ul class="sub-menu">
+                                <li id="Test" class="test2"><a href="/kataloger">Kataloger</a></li>
                             </ul>
                         </li>
                     </ul>
