@@ -191,9 +191,19 @@ function getFromFile()
 
 <?php function SeVaren()
 { ?>
-    <form method="post">
-        <input type="submit" name="SeVaren" value="Se din personlig vare" />
-    </form>
+     <ul>
+        <!-- Her starter jeg mit loop -->
+        <?php foreach (getFromFile() as $i => $note) 
+        { ?>
+            <li>
+                <?php echo ($note); 
+                ?>
+                <a href="?i=<?php echo $i; ?>">Slet</a>
+                <a href="?i=<?php echo $i; ?>">Rediger</a>
+
+            </li>
+        <?php } ?>
+    </ul>
 <?php    } ?>
 
 <?php function Bemærkning()
@@ -201,7 +211,7 @@ function getFromFile()
     <form method="post"> <?php // man kan også lave en (action="savenote.php" hvor den fører det til savenote)
                             ?>
         <input type="text" name="note" value="Ingen bemærkning"> Vis du har en bemærkning, så kan du skrive den her.<br>
-        <button type="submit">Gem</button>
+        <button type="submit">Gem og se din personlig vare</button>
     </form>
 <?php    } ?>
 

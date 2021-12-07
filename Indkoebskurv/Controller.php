@@ -78,5 +78,7 @@ if (isset($_POST["antal"])) {
     saveToFile($SelectedAntal);
     Bemærkning();
 }
-
+if (isset($_POST["note"])){
+    SeVaren();
+}
 ?>

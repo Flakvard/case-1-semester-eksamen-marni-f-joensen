@@ -5817,6 +5817,7 @@
                                     <p>Designet af Hans J. Frydendal, MMD.</p>
                                     <p><strong>Vist på foto</strong><br>
                                         Model: Plus 5011</p>
+                                        <?php include "" ?>
                                     <p>Vist med én syning i ryggen på billedet. Fås som standard med to ekstra syninger på tværs.</p>
                                     <p><strong>Vejl. pris fra: 8.900 Kr.</strong></p>
                                     <p>Prisen på møblet varierer afhængig af materialevalg. Der må ydermere påregnes pristillæg for funktioner og tilpasninger.</p>

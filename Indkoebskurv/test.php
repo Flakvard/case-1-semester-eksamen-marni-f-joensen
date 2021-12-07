@@ -10,22 +10,6 @@
 
 <body bgcolor="#ff1493">
 
-
-
-    <ul>
-        <!-- Her starter jeg mit loop -->
-        <?php //foreach (getFromFile() as $i => $note) 
-        { ?>
-            <li>
-                <?php //echo ($note); 
-                ?>
-                <a href="?i=<?php //echo $i; 
-                            ?>"></a>
-
-            </li>
-        <?php } ?>
-    </ul>
-
     <form method="post">
         <input type="submit" name="tilpasProduktet" value="Tilpass dit produkt" />
     </form>
