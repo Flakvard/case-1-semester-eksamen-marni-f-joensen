@@ -674,8 +674,6 @@
     <script async nomodule src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" crossorigin="anonymous" custom-element="amp-animation"></script>
     <script src="https://cdn.ampproject.org/v0/amp-consent-0.1.mjs" async="" custom-element="amp-consent" type="module" crossorigin="anonymous"></script>
     <script async nomodule src="https://cdn.ampproject.org/v0/amp-consent-0.1.js" crossorigin="anonymous" custom-element="amp-consent"></script>
-    <script src="https://cdn.ampproject.org/v0/amp-form-0.1.mjs" async="" custom-element="amp-form" type="module" crossorigin="anonymous"></script>
-    <script async nomodule src="https://cdn.ampproject.org/v0/amp-form-0.1.js" crossorigin="anonymous" custom-element="amp-form"></script>
     <script src="https://cdn.ampproject.org/v0/amp-mustache-0.2.mjs" async="" custom-template="amp-mustache" type="module" crossorigin="anonymous"></script>
     <script async nomodule src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" crossorigin="anonymous" custom-template="amp-mustache"></script>
     <script src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.mjs" async="" custom-element="amp-position-observer" type="module" crossorigin="anonymous"></script>

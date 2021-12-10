@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <?php include "animations.php"?>
+    <?php include "style.css"?>
     <title>Produkter - Farstrup Furniture</title>
 </head>
 
@@ -17,7 +17,7 @@
     <br>
     <br>
     <?php
-    echo ("hello world")
+    echo ("<h1>hello world</h1>")
     ?>
     <div class="main-container ">
 

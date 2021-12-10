@@ -39,7 +39,7 @@
                             <div class="footer-description">
                                 <p>Farstrup er specialister i at tilpasse stole, der tilgodeser dine individuelle behov.</p>
                                 <p>Bemærk at dette er Farstrups overordnede website, og der tages forbehold for tastefejl.</p>
-                                <p>Ønsker du at købe et produkt, eller har du behov for service, er du velkommen til at kontakte en af <a href="https://farstrup.dk/forhandlere/">vores mange forhandlere, som du finder her.</a></p>
+                                <p>Ønsker du at købe et produkt, eller har du behov for service, er du velkommen til at kontakte en af <a href="">vores mange forhandlere, som du finder her.</a></p>
                             </div>
 
                         </div>
@@ -56,8 +56,8 @@
                             <p class="adresse">Farstrupvej 21,</p>
                             <p class="postnummer-by">5471 Søndersø</p>
                             <p>CVR-nr: 37217514</p>
-                            <p>Tel: <a href="tel:+4563838383">+45 63838383</a></p>
-                            <p>Mail: <a href="mailto:info@farstrup.dk">info@farstrup.dk</a></p>
+                            <p>Tel: <a href="">+45 63838383</a></p>
+                            <p>Mail: <a href="">info@farstrup.dk</a></p>
 
                         </div>
 
@@ -89,21 +89,21 @@
                         <div class="footer-content">
 
 
-                            <a class="footer-social-medie" href="https://www.facebook.com/FarstrupFurniture/" target="_blank">
+                            <a class="footer-social-medie" href="" target="_blank">
                                 <amp-img src="https://farstrup.dk/wp-content/uploads/facebook-icon.svg" width="30" height="30" alt="" layout="fixed" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:30px;height:30px" i-amphtml-layout="fixed">
                                 </amp-img>
                                 <span>Facebook</span>
                             </a>
 
 
-                            <a class="footer-social-medie" href="https://www.instagram.com/farstrupfurniture/" target="_blank">
+                            <a class="footer-social-medie" href="" target="_blank">
                                 <amp-img src="https://farstrup.dk/wp-content/uploads/instagram-icon.svg" width="30" height="30" alt="" layout="fixed" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:30px;height:30px" i-amphtml-layout="fixed">
                                 </amp-img>
                                 <span>Instagram</span>
                             </a>
 
 
-                            <a class="footer-social-medie" href="https://www.linkedin.com/company/farstrup-furniture/" target="_blank">
+                            <a class="footer-social-medie" href="" target="_blank">
                                 <amp-img src="https://farstrup.dk/wp-content/uploads/linkedin-icon.svg" width="30" height="30" alt="" layout="fixed" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:30px;height:30px" i-amphtml-layout="fixed">
                                 </amp-img>
                                 <span>LinkedIn</span>
