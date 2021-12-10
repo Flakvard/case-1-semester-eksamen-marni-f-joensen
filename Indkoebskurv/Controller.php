@@ -17,10 +17,10 @@ if (isset($_GET["j"])) {
                             ?>
         <input type="text" name="Redigering"> Hvad skal det ændres til?.<br>
         <button type="submit">Gem</button><br>
-        Efter du har gemt, tryk tilbage
+        Efter du har gemt, tryk tilbage nedenfor
         <br>
     </form>
-    <a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/produkter/plus-5012.php">Tilbage</a>
+    <bold><a href="http://localhost/case-1-semester-eksamen-marni-f-joensen/produkter/plus-5011.php">Tilbage</a></bold>
 <?php
     @$nye_value = (string)$_POST["Redigering"];
     skiftElement(($_GET['j']), $nye_value);
@@ -128,7 +128,7 @@ if (isset($_POST["Rediger"])) {
 
 if (isset($_POST["TilføjTilIndkøbskurv"])) {
     TilføjTilIndkøbskurv();
-    ClearJsonFile();
+    //ClearJsonFile();
 }
 
 if (isset($_POST["sletAlt"])){

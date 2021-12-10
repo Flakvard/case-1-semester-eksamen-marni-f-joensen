@@ -9,12 +9,11 @@
 </head>
 
 <body >
-
     <form method="post">
         <input type="submit" name="tilpasProduktet" value="Tilpass dit produkt" />
     </form>
     <form method="post">
-        <input type="submit" name="RetEllerSlet" value="Se dine vælg" />
+        <input type="submit" name="RetEllerSlet" value="Se min vare" />
     </form>
     <br>
     <hr>

@@ -5588,68 +5588,7 @@
     <div class="main-container ">
 
 
-        <amp-sidebar id="mobilmenu" layout="nodisplay" side="right" class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
-
-            <button on="tap:mobilmenu.close" class="close-sidebar">
-                <span></span>
-                <span></span>
-            </button>
-
-            <div class="menu-header-top-menu-container">
-                <ul id="menu-header-top-menu-1" class="menu">
-                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8992"><a href="https://farstrup.dk/category/presse/">Presse</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3816"><a href="/category/blog/">Blog</a></li>
-                </ul>
-            </div>
-            <div class="menu-header-menu-container">
-                <ul id="menu-header-menu-1" class="menu">
-                    <li class="menu-kollektion menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-725"><a href="https://farstrup.dk/produkter/">Kollektion</a>
-                        <ul class="sub-menu">
-                            <li class="menu-laenestole menu-item menu-item-type-custom menu-item-object-custom menu-item-3830"><a href="/vare-kategori/laenestole/">Lænestole</a></li>
-                            <li class="menu-funktionsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3829"><a href="/vare-kategori/funktionsstole/">Funktionsstole</a></li>
-                            <li class="menu-spisebordsstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3832"><a href="/vare-kategori/spisebordsstole/">Spisebordsstole</a></li>
-                            <li class="menu-stabelstole menu-item menu-item-type-custom menu-item-object-custom menu-item-3833"><a href="/vare-kategori/stabelstole/">Stabelstole</a></li>
-                            <li class="menu-sofaer menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-3831"><a href="/vare-kategori/sofaer/" aria-current="page">Sofaer</a></li>
-                            <li class="menu-borde menu-item menu-item-type-custom menu-item-object-custom menu-item-3828"><a href="/vare-kategori/borde/">Borde</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://farstrup.dk/forhandlere/">Forhandlere</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="https://farstrup.dk/om-os/">Om os</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"><a href="https://farstrup.dk/kontakt-os/">Kontakt</a></li>
-                    <li class="menu-kollektion menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6852"><a href="/contract">Contract</a>
-                        <ul class="sub-menu">
-                            <li class="menu-referencer menu-item menu-item-type-custom menu-item-object-custom menu-item-6853"><a href="/referencer">Referencer</a></li>
-                            <li class="menu-kataloger menu-item menu-item-type-custom menu-item-object-custom menu-item-6854"><a href="/kataloger">Kataloger</a></li>
-                            <li class="menu-tekniskefiler menu-item menu-item-type-custom menu-item-object-custom menu-item-6855"><a href="/tekniske-filer">Tekniske filer</a></li>
-                            <li class="menu-contract-kollektion menu-item menu-item-type-custom menu-item-object-custom menu-item-6856"><a href="/kollektion">Kollektion</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-da wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-10-da"><a href="https://farstrup.dk/vare-kategori/sofaer/">
-                            <amp-img class="wpml-ls-flag amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="https://farstrup.dk/wp-content/uploads/flags/da.png" alt="Dansk" width="45" height="30" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                <i-amphtml-sizer class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iNDUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"></i-amphtml-sizer><noscript><img src="https://farstrup.dk/wp-content/uploads/flags/da.png" alt="Dansk" width="45" height="30"></noscript>
-                            </amp-img>
-                        </a>
-                        <ul class="sub-menu">
-                            <li class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-en"><a href="https://farstrup.dk/en/vare-kategori/sofas/">
-                                    <amp-img class="wpml-ls-flag amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="https://farstrup.dk/wp-content/uploads/flags/en.png" alt="English" width="45" height="30" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                        <i-amphtml-sizer class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iNDUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"></i-amphtml-sizer><noscript><img src="https://farstrup.dk/wp-content/uploads/flags/en.png" alt="English" width="45" height="30"></noscript>
-                                    </amp-img>
-                                </a></li>
-                            <li class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-nl wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-nl"><a href="https://farstrup.dk/nl/product-categorie/zitgroepen/">
-                                    <amp-img class="wpml-ls-flag amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="https://farstrup.dk/wp-content/uploads/flags/nl.png" alt="Dutch" width="45" height="30" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                        <i-amphtml-sizer class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iNDUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"></i-amphtml-sizer><noscript><img src="https://farstrup.dk/wp-content/uploads/flags/nl.png" alt="Dutch" width="45" height="30"></noscript>
-                                    </amp-img>
-                                </a></li>
-                            <li class="menu-item wpml-ls-slot-10 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-10-de"><a href="https://farstrup.dk/de/produkt-kategorie/sofas-de/">
-                                    <amp-img class="wpml-ls-flag amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="https://farstrup.dk/wp-content/uploads/flags/de.png" alt="German" width="45" height="30" layout="intrinsic" i-amphtml-layout="intrinsic">
-                                        <i-amphtml-sizer class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iNDUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"></i-amphtml-sizer><noscript><img src="https://farstrup.dk/wp-content/uploads/flags/de.png" alt="German" width="45" height="30"></noscript>
-                                    </amp-img>
-                                </a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </amp-sidebar>
+        
 
         <div class="mobil-header-wrapper ">
 

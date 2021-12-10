@@ -3,7 +3,8 @@
 <?php include "style.css"; ?>
 
 <head>
-    <?php //include "style.php"; ?>
+    <?php //include "style.php"; 
+    ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,16 +83,7 @@
         </div>
         <div class="content-container shop sidebar-enabled sidebar-enabled-left">
 
-            <div class="sidebar sidebar-venstre">
-                <div id="woocommerce_product_categories-2" class="sidebar-element widget woocommerce widget_product_categories">
-                   
-                </div>
 
-                <div class="sidebar-element bgcolor-">
-
-                </div>
-
-            </div>
             <div class="content">
 
 
@@ -105,19 +97,17 @@
                             </div>
                         </div>
 
-                    </div> 
-                    <div class="column">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    <?php include "../Indkoebskurv/index.php"; ?>
+                    </div>
+                    <div class="row" disabled="disabled">
+                        <div class="column" disabled="disabled">
+                            <br>
+                            <br>
+                            <br>
+                            <?php include "../Indkoebskurv/index.php"; ?>
+                        </div>
                     </div>
 
-                    
+
                     <div class="summary entry-summary">
                         <h1 class="product_title entry-title">Plus 5011</h1>
                         <p class="price"></p>
@@ -153,7 +143,11 @@
                             </div>
                             <div class="row">
                                 <div class="extra-text-container the-content-container">
-                                    <br><br><br><br><br><br><br><br><br>
+                                    <br><br><br><br><br><br><br><br><br><br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
                                     <h3>En verden af plusser</h3>
                                     <p>Plus 5021 er blot en af mange i Plus-serien, som fås lige efter din smag. Længe leve individualisme!</p>
                                     <p>Designet af Hans J. Frydendal, MMD.</p>
@@ -189,7 +183,7 @@
                         <amp-img src="https://farstrup.dk/wp-content/uploads/Plus_5011_2_450x550_web.jpg" width="450" height="550" layout="intrinsic" class="product-image i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" i-amphtml-layout="intrinsic">
                             <i-amphtml-sizer class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjU1MCIgd2lkdGg9IjQ1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer>
                         </amp-img>
-                        
+
                     </div>
                     <br><br><br><br><br><br><br><br>
                     <div class="">
@@ -249,7 +243,7 @@
         </script>
 
     </div>
-   
+
     <?php
     include "../footer.php"; ?>
 

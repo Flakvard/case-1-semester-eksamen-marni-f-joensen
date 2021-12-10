@@ -65,7 +65,7 @@ function ClearJsonFile()
     // get array index to delete
     $arr_index = array();
     foreach ($notesArray as $key => $value) {
-        if (1==1 ) {
+        if (1 == 1) {
             $arr_index[] = $key;
         }
     }
@@ -101,6 +101,7 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <img src="../img/bejseform-eg.png" alt="Mål for varen" width="" height="">
 <?php    } ?>
 
 <?php function VælgBogebejdseformer()
@@ -125,6 +126,7 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <img src="../img/bejseform-bøg.png" alt="Mål for varen" width="" height="">
 
 <?php    } ?>
 
@@ -140,8 +142,11 @@ function ClearJsonFile()
         </div>
         <div>
             <button type="submit">Select</button>
+
         </div>
     </form>
+    <br><br>
+    <img src="../img/stel.png" alt="Stel for varen" width="900" height="400">
 <?php    } ?>
 
 <?php function VælgBetræk()
@@ -158,6 +163,9 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <br><br>
+    <img src="../img/tekstilVSlæder.png" alt="Mål for varen" width="492" height="399">
+
 <?php    } ?>
 
 <?php function VælgTekstil()
@@ -181,7 +189,7 @@ function ClearJsonFile()
     <form method="post">
         <div>
             <label for="læder">Vælg ægte læder fra danske Sørensen Leather</label> <br>
-            Venligts gå til deres hjemmeside <a href="https://sorensenleather.com/collections/">Sørensenleather.com</a><br>
+            Venligts gå til deres hjemmeside her <b><a href="https://sorensenleather.com/collections/">www.sørensenleather.com</a></b><br>
             og skriv nedenfor <b>navn, farve </b>og<b> type </b>af læder du ønsker<br>
             <input type="text" name="læder">
         </div>
@@ -189,6 +197,10 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <br><br>
+    <a href="https://sorensenleather.com/collections/">
+        <img src="../img/sorensenleather.png" alt="Mål for varen" width="692" height="250">
+    </a>
 <?php    } ?>
 
 <?php function VælgGabriel()
@@ -196,7 +208,7 @@ function ClearJsonFile()
     <form method="post">
         <div>
             <label for="Gabriel">Vælg kvalitetstekstil fra danske Gabriel</label> <br>
-            Venligts gå til deres hjemmeside <a href="https://www.gabriel.dk/en/fabrics/fabrics/?letter=">Gabriel.dk</a><br>
+            Venligts gå til deres hjemmeside her <b><a href="https://www.gabriel.dk/en/fabrics/fabrics/?letter=">www.gabriel.dk</a></b><br>
             og skriv nedenfor <b>navn, farve </b>og<b> type </b>af tekstil du ønsker<br>
             <input type="text" name="Gabriel">
         </div>
@@ -204,6 +216,10 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <br><br>
+    <a href="https://www.gabriel.dk/en/fabrics/fabrics/?letter=">
+        <img src="../img/gabriel.png" alt="Mål for varen" width="692" height="250">
+    </a>
 <?php    } ?>
 
 
@@ -212,7 +228,7 @@ function ClearJsonFile()
     <form method="post">
         <div>
             <label for="Kvadrat">Vælg kvalitetstekstil fra danske Kvadrat</label> <br>
-            Venligts gå til deres hjemmeside <a href="https://www.kvadrat.dk/en/products?showallproducts=true">Kvadrat.dk</a><br>
+            Venligts gå til deres hjemmeside her <b> <a href="https://www.kvadrat.dk/en/products?showallproducts=true">www.kvadrat.dk</a></b><br>
             og skriv nedenfor <b>navn, farve </b>og<b> type </b>af tekstil du ønsker<br>
             <input type="text" name="Kvadrat">
         </div>
@@ -220,6 +236,10 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <br><br>
+    <a href="https://www.kvadrat.dk/en/products?showallproducts=true">
+        <img src="../img/kvadrat.png" alt="Mål for varen" width="692" height="250">
+    </a>
 <?php    } ?>
 
 
@@ -232,12 +252,6 @@ function ClearJsonFile()
     </form>
 <?php    } ?>
 
-<?php function TilpassDitProdukt()
-{ ?>
-    <form method="post">
-        <input type="submit" name="tilpasProduktet" value="Tilpass dit produkt" />
-    </form>
-<?php    } ?>
 
 <?php function Vælgmål()
 { ?>
@@ -252,6 +266,8 @@ function ClearJsonFile()
             <button type="submit">Select</button>
         </div>
     </form>
+    <br><br>
+    <img src="../img/mål-billede.png" alt="Mål for varen" width="" height="">
 <?php    } ?>
 
 <?php function VælgAntal()
