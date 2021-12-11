@@ -8,9 +8,8 @@ if (isset($_GET["i"])) {
     processForm();
 }
 
-if (isset($_GET["j"])) {
-    $SletOgRediger = count(getFromFile());
-    RedigerVarene($SletOgRediger);
+if (isset($_GET["j"])) { //fanger array keys/elementer når man trykker på redigerknappen.
+    RedigerVarene();
 
 ?>
     <form method="post"> <?php // man kan også lave en (action="savenote.php" hvor den fører det til savenote)                            
@@ -26,8 +25,7 @@ if (isset($_GET["j"])) {
     skiftElement(($_GET['j']), $nye_value);
 
     if (isset($_GET["færdig"])) {
-        $SletOgRediger = count(getFromFile());
-        SeVaren($SletOgRediger);
+        SeVaren();
     }
 }
 
@@ -113,26 +111,28 @@ if (isset($_POST["antal"])) {
 }
 
 if (isset($_POST["RetEllerSlet"])) {
-    $SletOgRediger = count(getFromFile());
-    SeVaren($SletOgRediger);
+    SeVaren();
 }
 
 if (isset($_POST["Slet"])) {
-    $SletOgRediger = count(getFromFile());
-    SletVarerne($SletOgRediger);
+    SletVarerne();
 }
 if (isset($_POST["Rediger"])) {
-    $SletOgRediger = count(getFromFile());
-    RedigerVarene($SletOgRediger);
+    RedigerVarene();
 }
 
 if (isset($_POST["TilføjTilIndkøbskurv"])) {
     TilføjTilIndkøbskurv();
-    //ClearJsonFile();
+    ClearJsonFile();
 }
 
 if (isset($_POST["sletAlt"])){
     ClearJsonFile();
 }
+
+if (isset($_POST["tøm"])){
+    ClearIndkobskurven();
+}
+
 
 ?>

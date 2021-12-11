@@ -283,7 +283,7 @@ function ClearJsonFile()
     </form>
 <?php    } ?>
 
-<?php function SeVaren($SletOgRediger)
+<?php function SeVaren()
 { ?>
     <ul>
         <!-- Her starter jeg mit loop -->
@@ -294,7 +294,7 @@ function ClearJsonFile()
             </li>
         <?php } ?>
         <form method="post">
-            <input type="hidden" name="SletteOgRedigere" value="<?php echo $SletOgRediger; ?>" />
+           
             <button type="submit" name="Gem">Gem </button>
             <button type="submit" name="Rediger">Rediger</button>
             <button type="submit" name="Slet">Slet </button><br>
@@ -303,7 +303,7 @@ function ClearJsonFile()
     </ul>
 <?php    } ?>
 
-<?php function SletVarerne($SletOgRediger)
+<?php function SletVarerne()
 { ?>
     <ul>
         <!-- Her starter jeg mit loop -->
@@ -315,14 +315,13 @@ function ClearJsonFile()
             </li>
         <?php } ?>
         <form method="post">
-            <input type="hidden" name="SletteOgRedigere" value="<?php echo $SletOgRediger; ?>" />
             <button type="submit" name="Gem">Gem</button>
             <button type="submit" name="sletAlt">Slet alt</button>
         </form>
     </ul>
 <?php    } ?>
 
-<?php function RedigerVarene($SletOgRediger)
+<?php function RedigerVarene()
 { ?>
     <ul>
         <!-- Her starter jeg mit loop -->
@@ -334,7 +333,7 @@ function ClearJsonFile()
             </li>
         <?php } ?>
         <form method="post">
-            <input type="hidden" name="SletteOgRedigere" value="<?php echo $SletOgRediger; ?>" />
+            
         </form>
     </ul>
 <?php    } ?>
@@ -361,9 +360,10 @@ function jsonToOrder()
 
 function TilføjTilIndkøbskurv()
 {
-    $indkøbskurv = jsonToOrder(); //appender/pusher vores noter til en array. Det som [] laver er at vi tæller elementer og så tilsætter en ny element
+    $varen = jsonToOrder(); //appender/pusher vores noter til en array. Det som [] laver er at vi tæller elementer og så tilsætter en ny element
+    $indkøbskurv = ["Plus 5011" => $varen ];
     $jsonNotes = json_encode($indkøbskurv); //encoder det til en json
-
+   
     file_put_contents("../Indkoebskurv/indkobskurv.json", $jsonNotes); //Putter det i en json fil
 }
 
@@ -373,4 +373,32 @@ function getFromIndkøbskurv()
     $notesArray1 = json_decode($jsonNotes1, true); //True betyder - det skal vi ikke tænke som meget om?
     return $notesArray1; // returnerer til en variable
 }
+
+function ClearIndkobskurven()
+{
+    // read json file
+    $data = file_get_contents("../Indkoebskurv/indkobskurv.json");
+
+    // decode json to associative array
+    $notesArray = json_decode($data, true);
+
+    // get array index to delete
+    $arr_index = array();
+    foreach ($notesArray as $key => $value) {
+        if (1 == 1) {
+            $arr_index[] = $key;
+        }
+    }
+
+    // delete data
+    foreach ($arr_index as $i) {
+        unset($notesArray[$i]);
+    }
+    // rebase array
+    $notesArray = array_values($notesArray);
+
+    // encode array to json and save to file
+    file_put_contents("../Indkoebskurv/indkobskurv.json", json_encode($notesArray));
+}
+
 ?>

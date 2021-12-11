@@ -91,21 +91,10 @@
                 <div id="product-2646" class="product type-product post-2646 status-publish first instock product_cat-sofaer has-post-thumbnail shipping-taxable product-type-simple">
 
                     <div class="column">
-                        <div class="product-gallery">
-                            <div class="product-main-image">
-                                <img src="https://farstrup.dk/wp-content/uploads/Plus_5011_SetupB_Side_450x550_compressed-1.png" alt="Plus 5011" width="350" height="450">
-                            </div>
-                        </div>
+
 
                     </div>
-                    <div class="row" disabled="disabled">
-                        <div class="column" disabled="disabled">
-                            <br>
-                            <br>
-                            <br>
-                            <?php include "../Indkoebskurv/index.php"; ?>
-                        </div>
-                    </div>
+
 
 
                     <div class="summary entry-summary">
@@ -134,28 +123,33 @@
 
                             <div class="row">
                                 <div class="column">
+                                    <div class="product-gallery">
+                                        <div class="product-main-image">
+                                            <img src="https://farstrup.dk/wp-content/uploads/Plus_5011_SetupB_Side_450x550_compressed-1.png" alt="Plus 5011" width="350" height="450">
+                                        </div>
+                                    </div>
                                     <p>Plus 5011 er en sofastol, der passer til Plus-seriens <a href="/vare-kategori/laenestole/">lænestole</a> og <a href="/vare-kategori/sofaer/">sofaer</a>. Det tidløse og elegante design gør Plus 5011 let at sammensætte med de fleste indretninger og den kan nemt matches sammen med andre <a href="https://farstrup.dk/produkter/">møbler</a>.</p>
                                     <p>Plus 5011 har et fast lavt ryglæn, et klassisk design og en uovertruffen siddekomfort. Sofastolen er udført med kvalitetsmaterialer, og der er mulighed for at vælge mellem et bredt udvalg af kvalitetstekstiler og lædermaterialer i mange forskellige farver, så hvis ønsket er at matche eksisterende møbler er det muligt, men det er også muligt at skabe en stol med et helt personligt udtryk.</p>
                                     <p>5011 sofastolen er en alsidig stol der kan bruges i de fleste rum– den går gennem utallige faglærte hænder, for at man til sidst kan sætte sig i sin helt personlige stol eller stol med personlighed.</p>
-                                    <p>Plus 5011 er en klassisk og stilren lænestol, som står flot sammen med <a href="https://farstrup.dk/produkter/sofabord-8300/">sofabordene 3800</a>.</p>
-                                    <p>Se hele udvalget af <a href="/vare-kategori/laenestole/">lænestole her</a> og <a href="/vare-kategori/sofaer/">sofaer her</a>.</p>
+                                    <p>Plus 5011 er en klassisk og stilren lænestol, som står flot sammen med <a href="https://farstrup.dk/produkter/sofabord-8300/">sofabordene 3800</a>.</p>                           
+                                    <p><strong>Vejl. pris fra: 8.900 Kr.</strong></p>
+                                    <p>Prisen på møblet varierer afhængig af materialevalg. Der må ydermere påregnes pristillæg for funktioner og tilpasninger.</p>
+                                </div>
+                                <div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <?php include "../Indkoebskurv/index.php"; ?>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="extra-text-container the-content-container">
                                     <br><br><br><br><br><br><br><br><br><br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                                    <h3>En verden af plusser</h3>
-                                    <p>Plus 5021 er blot en af mange i Plus-serien, som fås lige efter din smag. Længe leve individualisme!</p>
-                                    <p>Designet af Hans J. Frydendal, MMD.</p>
-                                    <p><strong>Vist på foto</strong><br>
-                                        Model: Plus 5011</p>
-                                    <p>Vist med én syning i ryggen på billedet. Fås som standard med to ekstra syninger på tværs.</p>
-                                    <p><strong>Vejl. pris fra: 8.900 Kr.</strong></p>
-                                    <p>Prisen på møblet varierer afhængig af materialevalg. Der må ydermere påregnes pristillæg for funktioner og tilpasninger.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
                                 </div>
                             </div>
 
@@ -165,10 +159,10 @@
 
                         <div class="wp-block-buttons buttons-beside-product">
                             <div class="wp-block-button">
-                                <a class="wp-block-button__link" href="https://farstrup.dk/forhandlere/">Find forhandler</a>
+                                <a class="wp-block-button__link" href="https://farstrup.dk/forhandlere/"></a>
                             </div>
                             <div class="wp-block-button">
-                                <a class="wp-block-button__link" href="#mere-info">Mere info</a>
+                                <a class="wp-block-button__link" href="#mere-info"> </a>
                             </div>
                         </div>
                     </div>

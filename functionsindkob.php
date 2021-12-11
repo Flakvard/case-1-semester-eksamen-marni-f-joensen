@@ -31,7 +31,7 @@ function ClearIndkobskurv()
 
 function getFromIndkøbskurven()
 {
-    $jsonNotes1 = file_get_contents("../Indkoebskurv/indkobskurv.json");
+    $jsonNotes1 = file_get_contents("C:\\xampp\\htdocs\\case-1-semester-eksamen-marni-f-joensen\\Indkoebskurv\\indkobskurv.json");
     $notesArray1 = json_decode($jsonNotes1, true); //True betyder - det skal vi ikke tænke som meget om?
     return $notesArray1; // returnerer til en variable
 }
