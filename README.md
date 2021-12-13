@@ -1,7 +1,7 @@
 # case-1-semester-eksamen-marni-f-joensen
  Case 1 semester eksamen, Marni F. Joensen <br>
 Denne kode viser hvordan en indkøbskurv kan implementeres til en hjemmeside.
-Største delen af koden, so er tilpassning af produktet ligger i mappen /Indkoebskurv/.
+Største delen af koden hvor funktioner og controller af tilpassning af produktet ligger i mappen /Indkoebskurv/.
 <br><br>
 Dette program viser kort kundens path til at købe et tilpasse produkt i plus-5011.php:<br>
 1. Kunden vælger en vare at tilpasse <br>
