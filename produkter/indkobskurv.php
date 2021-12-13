@@ -176,51 +176,53 @@ include "../Indkoebskurv/Controller.php";
 
                                         <input type="submit" value="Submit">
                                     </form>
+
                                 </div>
                                 <div class="column">
 
+                                    <form method="post">
+                                        <label for="City">Tøm indkøbskurven:</label> <button type="submit" name="tøm">Tøm</button>
+                                    </form>
                                     <pre>
                                     <?php
-                                    if(getFromIndkøbskurv()>1){
+                                    if (getFromIndkøbskurv() > 1) {
 
-                                    
-                                    print_r(getFromIndkøbskurv());
-                                    $varerne = getFromIndkøbskurv();
-                                    $prisforvaren = 8900;
-                                    @$Subtotal = $varerne["Plus 5011"]["Antal"] * $prisforvaren;
-                                    $moms25 = $Subtotal * 0.25;
-                                    $total = $Subtotal + $moms25;
+
+                                        print_r(getFromIndkøbskurv());
+                                        $varerne = getFromIndkøbskurv();
+                                        $prisforvaren = 8900;
+                                        @$Subtotal = $varerne["Plus 5011"]["Antal"] * $prisforvaren;
+                                        $moms25 = $Subtotal * 0.25;
+                                        $total = $Subtotal + $moms25;
 
 
                                     ?>
                                     </pre>
 
-                                    <?php
-                                    echo "Pris pr. stk. ";
-                                    echo $prisforvaren;
-                                    echo "<br>";
-                                    echo "Antal varer bestil = ";
-                                    echo @$varerne["Plus 5011"]["Antal"];
-                                    echo "<br>";
-                                    echo "Subtotal = $Subtotal kr<br>";
-                                    echo "Moms = $moms25 kr<br>";
-                                    echo "Total = $total kr<br>";
-                                }
-                                    ?>
-                                    <br>
+                                <?php
+                                        echo "Pris pr. stk. ";
+                                        echo $prisforvaren;
+                                        echo "<br>";
+                                        echo "Antal varer bestil = ";
+                                        echo @$varerne["Plus 5011"]["Antal"];
+                                        echo "<br>";
+                                        echo "Subtotal = $Subtotal kr<br>";
+                                        echo "Moms = $moms25 kr<br>";
+                                        echo "Total = $total kr<br>";
+                                    }
+                                ?>
+                                <br>
 
-                                    <label for="City">Send videre til nærmeste forhandler:</label><br>
-                                    <input type="submit" value="Submit">
-                                    <br>
-                                    <br>
-                                    <form action="Payment.php">
+                                <label for="City">Send videre til nærmeste forhandler:</label><br>
+                                <input type="submit" value="Submit">
+                                <br>
+                                <br>
+                                <form action="Payment.php">
                                     <label for="City">Go til payment gateway:</label><br>
                                     <button type="submit" name="paymentmedkort">Payment med kort</button>
-                                    
-                                    </form>
-                                    <form method="post">
-                                        <label for="City">Tøm indkøbskurven:</label> <button type="submit" name="tøm">Tøm</button>
-                                    </form>
+
+                                </form>
+
 
                                 </div>
                             </div>
