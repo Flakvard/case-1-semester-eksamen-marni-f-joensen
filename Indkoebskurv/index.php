@@ -10,7 +10,7 @@
 
 <body >
     <form method="post">
-        <input type="submit" name="tilpasProduktet" value="Tilpass dit produkt" />
+        <input type="submit" name="tilpasProduktet" value="Tilpas dit produkt" />
     </form>
     <form method="post">
         <input type="submit" name="RetEllerSlet" value="Se min vare" />
